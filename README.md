@@ -1,6 +1,8 @@
 # BitDown
 
-![BitDown Logo](/public/logo.svg)
+<p align="center">
+ <img src="/public/logo.svg" alt="BitDown Logo" width="200" />
+</p>
 
 BitDown is a Next.js project that allows users to stream media files directly from torrent sources and watch them in their browsers. It leverages the power of torrent-stream library and is built using TypeScript and Tailwind CSS for a modern and responsive user interface.
 
@@ -22,7 +24,7 @@ BitDown is a Next.js project that allows users to stream media files directly fr
 
 To get started with BitDown, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/bitdown.git`
+1. Clone the repository: `git clone https://github.com/adriel45dev/bitdownplay.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 4. Open your browser and visit: `http://localhost:3000`
