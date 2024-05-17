@@ -20,7 +20,7 @@ export default function DataStream({
 
   useEffect(() => {
     setSRC_MEDIA(
-      `/api/download2?torrentHash=${torrentHash}&filePath=${encodeURIComponent(
+      `/api/download?torrentHash=${torrentHash}&filePath=${encodeURIComponent(
         filePath
       )}`
     );

@@ -24,7 +24,7 @@ export default async (req, res) => {
           name: file.name,
           length: file.length,
           lengthInKB: Math.floor(file.length / 1024),
-          downloadLink: `/api/download2?torrentHash=${torrentHash}&filePath=${encodeURIComponent(
+          downloadLink: `/api/download?torrentHash=${torrentHash}&filePath=${encodeURIComponent(
             file.path
           )}`,
           path: file.path,
